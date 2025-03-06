@@ -1,10 +1,7 @@
-# First, install the required library by running: pip install qrcode pillow
-# 'qrcode' generates the QR code, and 'pillow' (PIL) handles the image output
-
 import qrcode
 
 # Define the data you want to encode in the QR code
-data = "https://www.recruityard.com"  # Replace this with your URL, text, or anything else
+data = "https://www.recruityard.com"  
 
 # Create a QR code instance with some basic settings
 qr = qrcode.QRCode(
@@ -22,6 +19,6 @@ qr.make(fit=True)  # Automatically adjust the size to fit the data
 qr_image = qr.make_image(fill_color="black", back_color="white")
 
 # Save the image to a file
-qr_image.save("my_qrcode.png")  # You can change the filename or path here
+qr_image.save("my_qrcode.png") 
 
 print("QR code generated and saved as 'my_qrcode.png'!")
