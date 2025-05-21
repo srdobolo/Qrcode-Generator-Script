@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Gerador de Código QR</title>
+</head>
+<body>
+    <h1>Gerador de Código QR</h1>
+    <form method="POST">
+        <label for="url">Insira o URL:</label>
+        <input type="url" id="url" name="url" required>
+        <button type="submit">Gerar Código QR</button>
+    </form>
+
+    {% if error_message %}
+        <p style="color: red;">Erro: {{ error_message }}</p>
+    {% endif %}
+
+    {% if qr_image %}
+        <h2>Código QR Gerado:</h2>
+        <img src="{{ qr_image }}" alt="Código QR">
+    {% endif %}
+</body>
+</html>
