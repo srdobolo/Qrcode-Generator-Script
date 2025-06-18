@@ -42,12 +42,12 @@ body {
       content: ""; }
 
 a {
-  color: #0bbbe6;
+  color: #FF9000;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
   a:hover, a:active, a:focus {
-    color: #0bbbe6;
+    color: #FF9000;
     outline: none;
     text-decoration: none; }
 
@@ -62,15 +62,15 @@ h1, h2, h3, h4, h5, h6, figure {
 
 ::-webkit-selection {
   color: #fff;
-  background: #0bbbe6; }
+  background: #FF9000; }
 
 ::-moz-selection {
   color: #fff;
-  background: #0bbbe6; }
+  background: #FF9000; }
 
 ::selection {
   color: #fff;
-  background: #0bbbe6; }
+  background: #FF9000; }
 
 #fh5co-aside {
   width: 38.2%;
@@ -80,7 +80,7 @@ h1, h2, h3, h4, h5, h6, figure {
   position: fixed;
   height: 100%;
   z-index: 555;
-  background-color: #0bbbe6;
+  background-color: rgba(255, 144, 0, 0.3);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center; }
