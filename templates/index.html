@@ -59,16 +59,8 @@
 						<div class="row">
 							<div class="col-lg-7">
 								<div class="fh5co-intro animate-box">
-									<h2>Free QRCode Generator</h2>
-									<p>Did you know that QR Codes were invented 30 years ago?
-
-And yet, today, there are companies charging monthly fees for a service that you can build in under 10 minutes using ChatGPT and a few lines of code. 🤯
-
-I just created a simple script that generates QR Codes from any link—took me less than 10 minutes using ChatGPT. If you're curious, I’m happy to share the code.
-
-Let’s stop overpaying for simple tools and start using knowledge + AI to save time and money. 💡
-
-If you liked this tip and want to support my work, feel free to buy me a coffee ☕ — it's always appreciated! 🙌</p>
+									<h2>Free QR Code Generator</h2>
+									<p>Did you know that QR Codes were invented 30 years ago?</p>
 								</div>
 							</div>
 							
@@ -76,13 +68,12 @@ If you liked this tip and want to support my work, feel free to buy me a coffee 
 								<form method="POST" action="/" id="fh5co-subscribe">
 									<div class="form-group">
 									<input type="text" class="form-control" name="url" placeholder="Enter URL to generate QR Code" required>
-									<input type="submit" value="Generate QR Code" class="btn btn-primary">
+									<input type="submit" class="btn btn-primary" value="Generate">
 									</div>
 								</form>
 								{% if qr_image %}
 									<div class="qr-result">
-									<h2><p>Generated</p>
-										<p>QR Code</p></h2>
+									<h2>Generated QR Code</h2>
 									<img src="{{ url_for('static', filename=qr_image) }}" alt="QR Code" style="max-width: 200px; margin-top: 20px;">
 									</div>
 								{% endif %}
@@ -98,11 +89,7 @@ If you liked this tip and want to support my work, feel free to buy me a coffee 
 			<div class="row">
 				<div class="col-md-6">
 					<ul id="fh5co-social">
-						<li><a href="#"><i class="icon-facebook"></i></a></li>
-						<li><a href="#"><i class="icon-twitter"></i></a></li>
-						<li><a href="#"><i class="icon-instagram"></i></a></li>
-						<li><a href="#"><i class="icon-google-plus"></i></a></li>
-						<li><a href="#"><i class="icon-pinterest-square"></i></a></li>
+						<li><a href="https://x.com/srdobolo"><i class="icon-twitter"></i></a></li>
 					</ul>
 				</div>
 				<div class="col-md-6 fh5co-copyright">
