@@ -1,0 +1,18 @@
+🧠 Did you know that QR Codes were invented 30 years ago?
+
+And yet, today, there are companies charging monthly fees for a service that you can build in under 10 minutes using ChatGPT and a few lines of code. 🤯
+
+Most of these services lure users in with a free QR Code generator, then charge a subscription just to allow "tracking and analytics."
+
+But here's the secret:
+You don’t need to pay a monthly fee just to track clicks on your QR Code. If your goal is to understand where traffic is coming from, simply add a UTM parameter to your link like this:
+
+👉 https://yourwebsite.com?utm_source=qrcode
+
+Then use Google Analytics to monitor visits from that source. Done.
+
+I just created a simple script that generates QR Codes from any link—took me less than 10 minutes using ChatGPT. If you're curious, I’m happy to share the code.
+
+Let’s stop overpaying for simple tools and start using knowledge + AI to save time and money. 💡
+
+#QRCode #AI #ChatGPT #OpenSource #GoogleAnalytics #GrowthHacking #Automation #NoCode #DevTips
