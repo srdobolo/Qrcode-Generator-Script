@@ -202,7 +202,7 @@ h1, h2, h3, h4, h5, h6, figure {
       font-size: 14px;
       color: #fff;
       border: none !important;
-      background: #0bbbe6;
+      background: #FF9000;
       color: #fff;
       text-transform: uppercase;
       border-top-right-radius: 100px;
@@ -213,7 +213,7 @@ h1, h2, h3, h4, h5, h6, figure {
       #fh5co-subscribe .form-group .btn:hover, #fh5co-subscribe .form-group .btn:active, #fh5co-subscribe .form-group .btn:focus {
         outline: none;
         box-shadow: none !important;
-        background: #2fcef5; }
+        background: #FF9000; }
     #fh5co-subscribe .form-group .tip {
       margin-top: 10px;
       margin-left: 30px;
@@ -269,7 +269,7 @@ h1, h2, h3, h4, h5, h6, figure {
       color: #bfbfbf; }
       #fh5co-social li a:hover, #fh5co-social li a:active, #fh5co-social li a:focus {
         outline: none;
-        color: #0bbbe6; }
+        color: #FF9000; }
 
 
 
